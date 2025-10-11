@@ -20,7 +20,7 @@ body {
 
 .container {
     background-color: rgb(255, 255, 255);
-    height: 800px;
+    max-height: 90vh;
     width: 500px;
     display: flex;
     justify-content: center;
@@ -28,8 +28,7 @@ body {
     border-radius: 30px;
     box-shadow: 0 8px 24px rgba(0,0,0,0.15);
     padding: 20px;
-    margin: 0;
-    margin-left: 1300px;
+    margin: 0 auto;
 }
 
 

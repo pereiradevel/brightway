@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro Holly</title>
-    <script src="script.js"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="src/style.css">
 </head>
 <body>
     <div class="pai">
@@ -18,7 +17,7 @@
                     <input type="number" placeholder="Telefone" required>
                     <input type="password" placeholder="Senha" required>
                     <input type="password" placeholder="Confirmar Senha" required>
-                    <button type="submit" id="botao">Registrar</button>
+                    <button type="button" id="botao">Registrar</button>
                 </form>
             </div>
        </div>
@@ -26,8 +25,9 @@
    <script>
     const botao = document.getElementById('botao');
     botao.addEventListener('click', function() {
-        window.location.href = 'login.html';
-});
+        // Redireciona para a página de login existente
+        window.location.href = 'index.html';
+    });
    </script>
 </body>
 </html>

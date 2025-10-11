@@ -19,9 +19,9 @@ body {
 .container {
     background-color: rgba(103, 169, 255, 0.683);
     width: 500px;
-    height: 700px;
+    max-height: 90vh;
     display: flex;
-    margin-left: 1300px;
+    margin: 0 auto;
     border-radius: 20px;
 }
 
