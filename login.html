@@ -3,23 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Brightway</title>
-    <link rel="stylesheet" href="src/stylelogin.css">
+    <title>Login BrightWay</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
     <div class="pai">
         <div class="container">
             <div class="filho">
-                <h1 class="login"> Login </h1>
+                <h1 class="registro"> Login </h1>
                 <form>
-                    <input type="text" placeholder="Nome" required>
-                    <input type="email" placeholder="Email" required>
+                    <input type="text" placeholder="Nome ou e-mail" required>
                     <input type="password" placeholder="Senha" required>
-                    <button type="submit">Entrar</button>
+                    <input type="password" placeholder="Confirmar Senha" required>
+                    <button type="button" id="botao"> Login </button>
                 </form>
             </div>
        </div>
    </div>
+   <script>
+    const botao = document.getElementById('botao');
+    botao.addEventListener('click', function() {
+        // Redireciona para a página de login existente
+        window.location.href = 'pagina.html';
+    });
+   </script>
 </body>
 </html>
