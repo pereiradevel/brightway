@@ -1,5 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
 
+body {
+
+    background-image: 
+        linear-gradient(rgba(4, 11, 12, 0.5)), 
+        url("Banner Profissional Brightway com Luz e Caminho.png"); 
+    
+    /* Propriedades da imagem */
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    
+    /* Cor do texto para contraste */
+    color: white; 
+    min-height: 100vh;
+}
 *{
     margin: 0%;
     list-style: none;
@@ -7,18 +22,19 @@
 
 }
 .logo1 {
-    width: 150px;
-    border-radius: 200px;
+    width: 120px;
+    border-radius: 100px;
+
 }
 
 .navbar {
-    background-color: rgba(91, 192, 250, 0.699);
+    background-color: rgba(138, 212, 255, 0.801);
     padding-top: 30px;
     padding-bottom: 40px;
     padding-left: 90px;
     display: flex;
     justify-content: space-between;
-    box-shadow: 0 1px 50px rgb(7, 127, 197);
+    box-shadow: 0 1px 50px rgba(206, 126, 226, 0.801);
 }
 .nav-links {
     display: flex;
@@ -27,9 +43,18 @@
     align-items: center;
     padding-right: 100px;
     font-family: "DynaPuff", system-ui;
+    font-size: 25px;
+
+}
+.li{
+    color: rgba(206, 126, 226, 0.801);
+}
+.li:hover{
+    font-size: 30px;
+    color: rgba(183, 92, 211, 0.795);
 }
 hr{
     border: none;
     height: 1.3px;
-    background: rgb(52, 140, 190);
+    background: rgba(206, 126, 226, 0.623);
 }

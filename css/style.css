@@ -1,5 +1,5 @@
-body {
-    background-image: url("Banner ");
+/* body {
+    background-image: url("Banner\ Profissional\ Brightway\ com\ Luz\ e\ Caminho.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -8,6 +8,19 @@ body {
     align-items: center;
     min-height: 100vh;
     margin: 0;
+} */
+
+body {
+
+    background-image: 
+        linear-gradient(rgba(4, 11, 12, 0.5)), 
+        url("Banner Profissional Brightway com Luz e Caminho.png"); 
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+
+    color: white; 
+    min-height: 100vh;
 }
 
 .pai {
@@ -19,7 +32,7 @@ body {
 }
 
 .container {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(230, 242, 250);
     max-height: 90vh;
     width: 500px;
     display: flex;
