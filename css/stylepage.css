@@ -46,15 +46,28 @@ body {
     font-size: 25px;
 
 }
-.li{
+.li {
     color: rgba(206, 126, 226, 0.801);
 }
-.li:hover{
+.li:hover {
     font-size: 30px;
     color: rgba(183, 92, 211, 0.795);
 }
-hr{
+hr {
     border: none;
     height: 1.3px;
     background: rgba(206, 126, 226, 0.623);
 }
+.para {
+    padding:50px;
+    margin-top: 90px;
+}
+.pp {
+    font-size: 25px;
+    text-align: center;
+    background-color:#c0dcf5d8;
+    color: black;
+    padding: 50px;
+    border-radius: 40px;
+}
+    
